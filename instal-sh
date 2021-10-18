@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+DEST_DIR=/lib/firmware/rtl_bt
+
+echo $DEST_DIR
+
+cp -v rtl8761b_config.bin $DEST_DIR
+cp -v rtl8761b_fw.bin $DEST_DIR
